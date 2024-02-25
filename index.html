@@ -24,7 +24,7 @@
             display: flex;
             flex-direction: row;
             border: 10px;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
         }
         .WhiteBG{
             background-color: azure;
@@ -45,7 +45,7 @@
             border-radius: 30%;
             height: 100%;
             aspect-ratio: 1 / 1;
-            margin: 20px;
+            padding: 20px;
             width: 250px;
         }
         .sectionText{
@@ -54,14 +54,17 @@
             text-align: inherit;
             font-size: 2em;
             text-wrap: wrap;
-            margin: 20px;
+            padding: 20px;
         }
         .sectionTitle {
-            display:flex;
-            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             border: 20px;
-            margin-top: 20px;
+            padding-top: 20px;
+            width: 100%;
+            font-size: 2em;
         }
         header {
             background-color: black;
@@ -74,6 +77,9 @@
             text-align: center;
             border-top: 2px solid white;
         }
+        .imageThing{
+            border-bottom: 2em;
+        }
     </style>
     <body>
         <!--[if lt IE 7]>
@@ -84,10 +90,10 @@
                 Jack Heineking
             </h1>
         </header>
-        <div class="section, sectionTitle, WhiteBG">
+        <div class="section sectionTitle WhiteBG">
             <h2 class="sectionTitle">About Me</h2>
         </div>
-        <div class="section, WhiteBG">
+        <div class="section WhiteBG">
         
             <div>
                 <img src="genericImage.png" class="profileImage">
@@ -99,10 +105,10 @@
                 </p>
             </div>
         </div>
-        <div class="section, sectionTitle, GreyBG ">
+        <div class="section sectionTitle GreyBG ">
             <h2 class="sectionTitle">What I Can Do</h2>
         </div>
-        <div class="section, GreyBG">
+        <div class="section GreyBG">
         
             
             <div class="sectionText">
@@ -115,10 +121,10 @@
 
             </div>
         </div>
-        <div class="section, sectionTitle, WhiteBG">
+        <div class="section sectionTitle WhiteBG">
             <h2 class="sectionTitle">My Experience</h2>
         </div>
-        <div class="section, WhiteBG">
+        <div class="section WhiteBG">
         
             <div>
                 <img src="genericImage.png" class="profileImage">
@@ -130,10 +136,10 @@
                 </p>
             </div>
         </div>
-        <div class="section, sectionTitle, GreyBG ">
+        <div class="section sectionTitle GreyBG ">
             <h2 class="sectionTitle">Where to Reach Me</h2>
         </div>
-        <div class="section, GreyBG">
+        <div class="section GreyBG">
         
             
             <div class="sectionText">
